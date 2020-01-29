@@ -33,7 +33,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ZoC-0c-vrm" kind="show" id="NBm-Xs-KqR"/>
+                                    <segue destination="ZoC-0c-vrm" kind="show" identifier="ToDetailViewController" id="NBm-Xs-KqR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

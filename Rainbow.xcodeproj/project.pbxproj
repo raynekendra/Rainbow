@@ -12,6 +12,9 @@
 		2E63F2E023E1286A00C4377D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E63F2DE23E1286A00C4377D /* Main.storyboard */; };
 		2E63F2E223E1287300C4377D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E63F2E123E1287300C4377D /* Assets.xcassets */; };
 		2E63F2E523E1287300C4377D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E63F2E323E1287300C4377D /* LaunchScreen.storyboard */; };
+		2E63F2F123E12EF100C4377D /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63F2F023E12EF100C4377D /* ColorsTableViewController.swift */; };
+		2E63F2F323E12F6C00C4377D /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63F2F223E12F6C00C4377D /* ColorDetailViewController.swift */; };
+		2E63F2F523E1360E00C4377D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63F2F423E1360E00C4377D /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2E63F2E123E1287300C4377D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E63F2E423E1287300C4377D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E63F2E623E1287300C4377D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E63F2F023E12EF100C4377D /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
+		2E63F2F223E12F6C00C4377D /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		2E63F2F423E1360E00C4377D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		2E63F2ED23E12CC800C4377D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2E63F2DE23E1286A00C4377D /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -84,7 +91,8 @@
 		2E63F2EE23E12CD100C4377D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2E63F2DE23E1286A00C4377D /* Main.storyboard */,
+				2E63F2F023E12EF100C4377D /* ColorsTableViewController.swift */,
+				2E63F2F223E12F6C00C4377D /* ColorDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -92,6 +100,7 @@
 		2E63F2EF23E12D1400C4377D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E63F2F423E1360E00C4377D /* Color.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +178,9 @@
 			files = (
 				2E63F2D923E1286A00C4377D /* AppDelegate.swift in Sources */,
 				2E63F2DB23E1286A00C4377D /* SceneDelegate.swift in Sources */,
+				2E63F2F123E12EF100C4377D /* ColorsTableViewController.swift in Sources */,
+				2E63F2F523E1360E00C4377D /* Color.swift in Sources */,
+				2E63F2F323E12F6C00C4377D /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
